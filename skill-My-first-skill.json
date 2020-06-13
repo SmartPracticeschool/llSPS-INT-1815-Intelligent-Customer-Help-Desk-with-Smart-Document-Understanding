@@ -1,0 +1,2065 @@
+{
+  "intents": [
+    {
+      "intent": "Bot_Control_Start_Over",
+      "examples": [
+        {
+          "text": "Actually, let's start over"
+        },
+        {
+          "text": "We will need to begin again"
+        },
+        {
+          "text": "We need a do-over"
+        },
+        {
+          "text": "Start over"
+        },
+        {
+          "text": "Restart"
+        },
+        {
+          "text": "Please start a new chat"
+        },
+        {
+          "text": "Please reset"
+        },
+        {
+          "text": "Let's pick this up from the top again."
+        },
+        {
+          "text": "Let's go back to square one"
+        },
+        {
+          "text": "Let us reopen this again."
+        },
+        {
+          "text": "I would like to start all over"
+        },
+        {
+          "text": "I want start from the beginning"
+        },
+        {
+          "text": "I need to reset."
+        },
+        {
+          "text": "How can I start over?"
+        },
+        {
+          "text": "Can we please start over?"
+        },
+        {
+          "text": "Begin over!"
+        },
+        {
+          "text": "Back to the top"
+        },
+        {
+          "text": "Back to the beginning"
+        },
+        {
+          "text": "Please initiate from the beginning"
+        },
+        {
+          "text": "One more time from the beginning"
+        }
+      ],
+      "description": "Restart bot or current flow."
+    },
+    {
+      "intent": "General_Jokes",
+      "examples": [
+        {
+          "text": "Are there jokes?"
+        },
+        {
+          "text": "Can you tell a joke?"
+        },
+        {
+          "text": "Can you tell me a joke?"
+        },
+        {
+          "text": "Do you have a joke?"
+        },
+        {
+          "text": "Do you have humor?"
+        },
+        {
+          "text": "Do you like fun?"
+        },
+        {
+          "text": "Do you like humor?"
+        },
+        {
+          "text": "I am getting bored"
+        },
+        {
+          "text": "I want a joke"
+        },
+        {
+          "text": "I'm bored"
+        },
+        {
+          "text": "One more joke"
+        },
+        {
+          "text": "Surprise me with something hilarious"
+        },
+        {
+          "text": "Tell me a joke"
+        },
+        {
+          "text": "Tell me something funny"
+        },
+        {
+          "text": "What do you do for fun?"
+        },
+        {
+          "text": "What is your favorite joke?"
+        },
+        {
+          "text": "Another joke"
+        }
+      ],
+      "description": "Request a joke."
+    },
+    {
+      "intent": "Bot_Control_Clarification",
+      "examples": [
+        {
+          "text": "I did not quite understand what you gave me"
+        },
+        {
+          "text": "What do you mean?"
+        },
+        {
+          "text": "What do you mean by that?"
+        },
+        {
+          "text": "What are you talking about?"
+        },
+        {
+          "text": "What are you saying?"
+        },
+        {
+          "text": "What are you referring to?"
+        },
+        {
+          "text": "Let's try to say that again more clearly, shall we?"
+        },
+        {
+          "text": "I need more information"
+        },
+        {
+          "text": "I don't understand"
+        },
+        {
+          "text": "I don't understand what you're saying"
+        },
+        {
+          "text": "I don't get it"
+        },
+        {
+          "text": "I didn't understand that properly"
+        },
+        {
+          "text": "I didn't quite understand what you said"
+        },
+        {
+          "text": "I didn't catch that"
+        },
+        {
+          "text": "Explains"
+        },
+        {
+          "text": "Come again?"
+        },
+        {
+          "text": "Can you say that again please?"
+        }
+      ],
+      "description": "Repeat or clarify last statement."
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Are you a human or a bot?"
+        },
+        {
+          "text": "Am I talking to a person or am I talking to an AI?"
+        },
+        {
+          "text": "Am I talking to a Bot?"
+        },
+        {
+          "text": "Am I talking to Watson?"
+        },
+        {
+          "text": "Am I chatting with a human?"
+        },
+        {
+          "text": "Tell me, are you a human or no?"
+        },
+        {
+          "text": "Is this a computer?"
+        },
+        {
+          "text": "How can you prove you are a human?"
+        },
+        {
+          "text": "Are you real?"
+        },
+        {
+          "text": "Are you human?"
+        },
+        {
+          "text": "Are you even real?"
+        },
+        {
+          "text": "Are you a robot?"
+        }
+      ],
+      "description": "Ask if speaking to a human or a bot."
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "Robots are stupid"
+        },
+        {
+          "text": "You are very frustrating"
+        },
+        {
+          "text": "Robots are boring"
+        },
+        {
+          "text": "Quit annoying me"
+        },
+        {
+          "text": "It is annoying"
+        },
+        {
+          "text": "I hate you"
+        },
+        {
+          "text": "I hate this!"
+        },
+        {
+          "text": "Hate you"
+        },
+        {
+          "text": "I do not like you"
+        },
+        {
+          "text": "Everyone hates you"
+        },
+        {
+          "text": "Do not like you?"
+        },
+        {
+          "text": "You do not seem smart"
+        },
+        {
+          "text": "You're really frustrating"
+        },
+        {
+          "text": "You're really irritating"
+        },
+        {
+          "text": "You're too stupid"
+        },
+        {
+          "text": "You are on my nerves"
+        },
+        {
+          "text": "You are having delusions"
+        },
+        {
+          "text": "Why are you stupid?"
+        },
+        {
+          "text": "Why are you so annoying?"
+        },
+        {
+          "text": "Stupid"
+        }
+      ],
+      "description": "Express unfavorable feedback."
+    },
+    {
+      "intent": "General_Security_Assurance",
+      "examples": [
+        {
+          "text": "Will my conversation remain secured?"
+        },
+        {
+          "text": "Are you safe on hackers?"
+        },
+        {
+          "text": "Are you safe?"
+        },
+        {
+          "text": "Can I be sure that my stored card details are held securely?"
+        },
+        {
+          "text": "Conversation secure?"
+        },
+        {
+          "text": "Customer info secured?"
+        },
+        {
+          "text": "Do you have protection against hacks?"
+        },
+        {
+          "text": "How do I know if my card info is kept safe?"
+        },
+        {
+          "text": "How do I know this chat is not a scam?"
+        },
+        {
+          "text": "How is my credit card info secured?"
+        },
+        {
+          "text": "How safe is my data?"
+        },
+        {
+          "text": "I'd like proof of a secure chat"
+        },
+        {
+          "text": "In what way can I tell if my plastic is safe?"
+        },
+        {
+          "text": "Is my card info secure?"
+        },
+        {
+          "text": "Is my payment information secure?"
+        },
+        {
+          "text": "Is there a reason to distrust this chat?"
+        },
+        {
+          "text": "Is this a trusted chat site?"
+        },
+        {
+          "text": "Is this an official chat?"
+        },
+        {
+          "text": "Is this conversation secure?"
+        },
+        {
+          "text": "Precautions hackers?"
+        },
+        {
+          "text": "Protection hacks?"
+        },
+        {
+          "text": "Secure conversation?"
+        },
+        {
+          "text": "What guards do you have in place to protect your customer's data?"
+        },
+        {
+          "text": "What makes this chat trustworthy?"
+        },
+        {
+          "text": "What safety measures are used to ensure that chat is secure?"
+        },
+        {
+          "text": "Why would I trust this chat?"
+        }
+      ],
+      "description": "Express concerns about the security of the bot."
+    },
+    {
+      "intent": "Bot_Control_Reject_Response",
+      "examples": [
+        {
+          "text": "I disagree"
+        },
+        {
+          "text": "You're misunderstanding me"
+        },
+        {
+          "text": "You didn't understand me"
+        },
+        {
+          "text": "You did not understand what I said"
+        },
+        {
+          "text": "You did not understand what I asked"
+        },
+        {
+          "text": "Wrong response"
+        },
+        {
+          "text": "That was wrong, try again"
+        },
+        {
+          "text": "That was not my intent"
+        },
+        {
+          "text": "That sounds like the wrong response"
+        },
+        {
+          "text": "That is not true"
+        },
+        {
+          "text": "That answer is incorrect"
+        },
+        {
+          "text": "Not the right response"
+        },
+        {
+          "text": "No"
+        },
+        {
+          "text": "No I'm fine thanks"
+        },
+        {
+          "text": "It is not what I was looking for"
+        },
+        {
+          "text": "It is not what I want"
+        },
+        {
+          "text": "I wasn't looking for that"
+        },
+        {
+          "text": "I don't want that"
+        },
+        {
+          "text": "I don't need that"
+        },
+        {
+          "text": "I do not think it is the answer?"
+        },
+        {
+          "text": "Bad response"
+        }
+      ],
+      "description": "Indicate the bot's response does not address a question."
+    },
+    {
+      "intent": "greetings",
+      "examples": [
+        {
+          "text": "Namaste"
+        },
+        {
+          "text": "Ciao!"
+        },
+        {
+          "text": "Aloha"
+        },
+        {
+          "text": "Hey! I am a doggy lover :)"
+        },
+        {
+          "text": "Hi Dog lover!!"
+        },
+        {
+          "text": "Hey! Help me train my dog."
+        },
+        {
+          "text": "Hello Dog trainer!"
+        },
+        {
+          "text": "Good Morning!"
+        },
+        {
+          "text": "Hey"
+        },
+        {
+          "text": "Hello!"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Thank_You",
+      "examples": [
+        {
+          "text": "Thank you Dog Lover"
+        },
+        {
+          "text": "#Thank you"
+        },
+        {
+          "text": "Thanks for your help!"
+        },
+        {
+          "text": "Thnx!"
+        },
+        {
+          "text": "#Thanks"
+        },
+        {
+          "text": "Thanks I Love Dogs!"
+        },
+        {
+          "text": "Thanks!"
+        },
+        {
+          "text": "Thank you soo much!"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Bot_Control_Standby",
+      "examples": [
+        {
+          "text": "Just hold on"
+        },
+        {
+          "text": "In a moment"
+        },
+        {
+          "text": "Just a sec"
+        },
+        {
+          "text": "I would like to put you on hold"
+        },
+        {
+          "text": "I will be back"
+        },
+        {
+          "text": "I want stop a moment"
+        },
+        {
+          "text": "Hold on"
+        },
+        {
+          "text": "Give me a second"
+        },
+        {
+          "text": "Back again soon"
+        },
+        {
+          "text": "Can you wait for me?"
+        },
+        {
+          "text": "Give me a few minutes to get together"
+        },
+        {
+          "text": "Give me a moment"
+        },
+        {
+          "text": "Be patient with me"
+        },
+        {
+          "text": "Can you give me a moment?"
+        },
+        {
+          "text": "Be back later"
+        },
+        {
+          "text": "Wait"
+        },
+        {
+          "text": "Out for a break"
+        },
+        {
+          "text": "Need a minute here"
+        },
+        {
+          "text": "Let me see"
+        },
+        {
+          "text": "Keep holding"
+        }
+      ],
+      "description": "Indicate a delay in providing input to the bot."
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "Can I speak with somebody?"
+        },
+        {
+          "text": "Operator please"
+        },
+        {
+          "text": "Need help from human"
+        },
+        {
+          "text": "Is there anyone there I can actually talk to for real?"
+        },
+        {
+          "text": "I would like to speak to someone"
+        },
+        {
+          "text": "I would like to speak to a human"
+        },
+        {
+          "text": "I want to talk to a person"
+        },
+        {
+          "text": "I want an agent to help me"
+        },
+        {
+          "text": "I want agent"
+        },
+        {
+          "text": "I want a manager"
+        },
+        {
+          "text": "I need to speak to a representative. How would I go about doing so?"
+        },
+        {
+          "text": "I don't want to talk to you"
+        },
+        {
+          "text": "I don't want to talk to a bot."
+        },
+        {
+          "text": "How can I skip the recorded menu and go straight to a live person?"
+        },
+        {
+          "text": "Hi can you transfer me"
+        },
+        {
+          "text": "Do not want a robot?"
+        },
+        {
+          "text": "Customer service representative please."
+        },
+        {
+          "text": "Could you please transfer me to your master?"
+        },
+        {
+          "text": "Contact person"
+        },
+        {
+          "text": "Connect me to a live operator please."
+        },
+        {
+          "text": "Can you connect me with a real person?"
+        },
+        {
+          "text": "Can you assist me to connect to an agent?"
+        },
+        {
+          "text": "Can I talk to someone?"
+        },
+        {
+          "text": "Can I speak to an advisor?"
+        },
+        {
+          "text": "Can I speak to a live person?"
+        },
+        {
+          "text": "Can I speak to a human please?"
+        },
+        {
+          "text": "Can I connect to an agent?"
+        },
+        {
+          "text": "Call agent"
+        },
+        {
+          "text": "Agent help"
+        },
+        {
+          "text": "A real agent, please."
+        },
+        {
+          "text": "Yes, take me to a real person"
+        },
+        {
+          "text": "Where is the closest agent?"
+        },
+        {
+          "text": "Send me to an agent"
+        },
+        {
+          "text": "Put me through to someone"
+        },
+        {
+          "text": "Pls connect"
+        },
+        {
+          "text": "Please let me talk to a human being."
+        },
+        {
+          "text": "Please connect me to a live agent"
+        },
+        {
+          "text": "Please assist me to get to an agent"
+        }
+      ],
+      "description": "Request a human agent."
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "Why are you here?"
+        },
+        {
+          "text": "Let us talk about you"
+        },
+        {
+          "text": "Introduce your self"
+        },
+        {
+          "text": "I want to set up the chat bot for my shop"
+        },
+        {
+          "text": "How old are you?"
+        },
+        {
+          "text": "How do you function?"
+        },
+        {
+          "text": "Do you know who you are?"
+        },
+        {
+          "text": "Do you have a name?"
+        },
+        {
+          "text": "Describe your self"
+        },
+        {
+          "text": "About you"
+        },
+        {
+          "text": "How can I configure you?"
+        },
+        {
+          "text": "Can I use another language?"
+        },
+        {
+          "text": "Tell me about your life"
+        },
+        {
+          "text": "Tell me something about yourself"
+        },
+        {
+          "text": "What languages do you speak?"
+        },
+        {
+          "text": "What should I know about you?"
+        },
+        {
+          "text": "What's your name?"
+        },
+        {
+          "text": "Where are you from?"
+        },
+        {
+          "text": "Where were you born?"
+        },
+        {
+          "text": "Who are you?"
+        }
+      ],
+      "description": "Request generic personal attributes."
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "What do you handle?"
+        },
+        {
+          "text": "Where can I find the frequently asked questions?"
+        },
+        {
+          "text": "What kinds of things can you do?"
+        },
+        {
+          "text": "What is this 4?"
+        },
+        {
+          "text": "What features are in here?"
+        },
+        {
+          "text": "What else can you help me with?"
+        },
+        {
+          "text": "What do you do?"
+        },
+        {
+          "text": "What can I ask you to do?"
+        },
+        {
+          "text": "What are your skills?"
+        },
+        {
+          "text": "What are you used for?"
+        },
+        {
+          "text": "What are you good at?"
+        },
+        {
+          "text": "What are you capable of?"
+        },
+        {
+          "text": "What are you able to understand?"
+        },
+        {
+          "text": "What are you able to deal with?"
+        },
+        {
+          "text": "What are my options?"
+        },
+        {
+          "text": "What are my options that you can help with?"
+        },
+        {
+          "text": "Tell me something"
+        },
+        {
+          "text": "Tell me about what kind of things you do?"
+        },
+        {
+          "text": "Is there anything you can help me with?"
+        },
+        {
+          "text": "I'd like to know what type of questions you can answer for me."
+        },
+        {
+          "text": "How can you solve my problems?"
+        },
+        {
+          "text": "How can you help me?"
+        },
+        {
+          "text": "How can I use you?"
+        },
+        {
+          "text": "Hi, what do you do?"
+        },
+        {
+          "text": "Help now"
+        },
+        {
+          "text": "Do you have a list of things I can talk to you about?"
+        },
+        {
+          "text": "Can you tell me what services you are able to help me with?"
+        },
+        {
+          "text": "Can you please give me a list of the types of things you can help me with?"
+        },
+        {
+          "text": "I do not know what to ask"
+        },
+        {
+          "text": "How do I use you?"
+        }
+      ],
+      "description": "Request capabilities of the bot."
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "Time to go"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Shut up"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "I d like to stop doing this"
+        },
+        {
+          "text": "I am out of here"
+        }
+      ],
+      "description": "End the conversation."
+    },
+    {
+      "intent": "Bot_Control_Change_Subject",
+      "examples": [
+        {
+          "text": "Let us change the topic"
+        },
+        {
+          "text": "Discuss something else"
+        },
+        {
+          "text": "A different matter"
+        },
+        {
+          "text": "Another thing"
+        },
+        {
+          "text": "Can we talk about something else?"
+        },
+        {
+          "text": "Change topic"
+        },
+        {
+          "text": "Chat about something else"
+        },
+        {
+          "text": "Help me with this other question"
+        },
+        {
+          "text": "Here is another issue"
+        },
+        {
+          "text": "I have one more question"
+        },
+        {
+          "text": "Let us talk about something else"
+        },
+        {
+          "text": "Talk about something else"
+        }
+      ],
+      "description": "Change to a different topic."
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "You've been so helpful :)"
+        },
+        {
+          "text": "Brilliant!"
+        },
+        {
+          "text": "Can't believe you are that good"
+        },
+        {
+          "text": "How cool is this?"
+        },
+        {
+          "text": "I like what you did there! :)"
+        },
+        {
+          "text": "I'm looking forward to working with you again! :)"
+        },
+        {
+          "text": "Love your work"
+        },
+        {
+          "text": "Ok thank you"
+        },
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "This is good"
+        },
+        {
+          "text": "This is great"
+        },
+        {
+          "text": "This is so cool"
+        },
+        {
+          "text": "You are awesome"
+        },
+        {
+          "text": "You are great"
+        },
+        {
+          "text": "You are the best"
+        },
+        {
+          "text": "You are wonderful"
+        },
+        {
+          "text": "You gave me exactly what I need!"
+        },
+        {
+          "text": "You the man"
+        },
+        {
+          "text": "You're a genius!"
+        }
+      ],
+      "description": "Express positive sentiment or gratitude."
+    },
+    {
+      "intent": "train",
+      "examples": [
+        {
+          "text": "Integrate Training and Games"
+        },
+        {
+          "text": "what to do when i am not at home"
+        },
+        {
+          "text": "common mistakes done by dog owners"
+        },
+        {
+          "text": "Dogs seperation anxiety"
+        },
+        {
+          "text": "Puppy-Party Games"
+        },
+        {
+          "text": "What to do while leaving home"
+        },
+        {
+          "text": "Goals of Socialization"
+        },
+        {
+          "text": "Handfeeding"
+        },
+        {
+          "text": "Teach Puppy to Like and Respect People"
+        },
+        {
+          "text": "Training Treats"
+        },
+        {
+          "text": "Barking and Growling on Cue"
+        },
+        {
+          "text": "Sit to Say Hello"
+        },
+        {
+          "text": "Hugging/Restraint"
+        },
+        {
+          "text": "Calming Quickly In addition to lengthy periods of massage and occasional"
+        },
+        {
+          "text": "Tantrums"
+        },
+        {
+          "text": "Handling/Examination"
+        },
+        {
+          "text": "Punishment"
+        },
+        {
+          "text": "Two Undeniable Facts About Punishment"
+        },
+        {
+          "text": "good Bite Inhibition"
+        },
+        {
+          "text": "Paper Tissue Issues"
+        },
+        {
+          "text": "Guarding Valued Objects"
+        },
+        {
+          "text": "Exchanging Valued Commodities for Treats"
+        },
+        {
+          "text": "Learning Bite Inhibition"
+        },
+        {
+          "text": "The Bad News and Good News About Dog Bites"
+        },
+        {
+          "text": "Bite-Inhibition Exercises"
+        },
+        {
+          "text": "Socializing on Walks"
+        },
+        {
+          "text": "How to Train Your Dog Not to Come When Called"
+        },
+        {
+          "text": "Changes During Doggy Adolescence"
+        },
+        {
+          "text": "The Secret to Adolescent Success"
+        },
+        {
+          "text": "Training on Walks"
+        },
+        {
+          "text": "Training in the Dog Park"
+        },
+        {
+          "text": "Sit and Settle Down"
+        },
+        {
+          "text": "Training in the car"
+        },
+        {
+          "text": "How to Train Your Dog to Come When Called"
+        },
+        {
+          "text": "Four Steps to an Emergency Distance Sit"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Bot_Control_Unsure",
+      "examples": [
+        {
+          "text": "You got me"
+        },
+        {
+          "text": "No idea"
+        },
+        {
+          "text": "To be honest, I m really not sure"
+        },
+        {
+          "text": "No clue"
+        },
+        {
+          "text": "I m not yet convinced"
+        },
+        {
+          "text": "I m not sure what will make you happy"
+        },
+        {
+          "text": "I m not certain I get what you re saying"
+        },
+        {
+          "text": "I haven't got a clue"
+        },
+        {
+          "text": "I have no idea what you are looking for"
+        },
+        {
+          "text": "I don t know what you need"
+        },
+        {
+          "text": "I don t know what you want"
+        },
+        {
+          "text": "I have no idea, actually"
+        }
+      ],
+      "description": "Indicate no definite answer to a question."
+    },
+    {
+      "intent": "Bot_Control_Ignore_Undo",
+      "examples": [
+        {
+          "text": "I didn't mean to do that actually, let's go back"
+        },
+        {
+          "text": "I did not mean that?"
+        },
+        {
+          "text": "It's not what I mean"
+        },
+        {
+          "text": "Hold on! I think I want to do it differently."
+        },
+        {
+          "text": "Cancel"
+        },
+        {
+          "text": "Actually, I take that back"
+        },
+        {
+          "text": "Wait! Let's back up few steps and do that again"
+        },
+        {
+          "text": "Nothing"
+        },
+        {
+          "text": "Not yet"
+        },
+        {
+          "text": "Never"
+        },
+        {
+          "text": "Never mind"
+        },
+        {
+          "text": "Let us redo that again!"
+        },
+        {
+          "text": "I change my mind."
+        },
+        {
+          "text": "Ignore this"
+        }
+      ],
+      "description": "Ask the bot to take one step back."
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "You there"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good evening"
+        }
+      ],
+      "description": "Greet the bot."
+    },
+    {
+      "intent": "Bot_Control_Approve_Response",
+      "examples": [
+        {
+          "text": "Got it"
+        },
+        {
+          "text": "Great"
+        },
+        {
+          "text": "I agree"
+        },
+        {
+          "text": "I like that"
+        },
+        {
+          "text": "Indeed!"
+        },
+        {
+          "text": "Sure thing!"
+        },
+        {
+          "text": "Sweet"
+        },
+        {
+          "text": "Affirmative. That's what I'm looking for."
+        },
+        {
+          "text": "All right"
+        },
+        {
+          "text": "This is alright"
+        },
+        {
+          "text": "Very well. Let's do it."
+        },
+        {
+          "text": "Yeah, that's it!"
+        },
+        {
+          "text": "Yes"
+        },
+        {
+          "text": "You read my mind"
+        },
+        {
+          "text": "That's exactly what I want"
+        },
+        {
+          "text": "That is what I need"
+        },
+        {
+          "text": "That is the proper response."
+        },
+        {
+          "text": "That is right"
+        },
+        {
+          "text": "That is precisely what I was looking for"
+        },
+        {
+          "text": "Correct"
+        },
+        {
+          "text": "For sure!"
+        }
+      ],
+      "description": "Acknowledge that the response satisfies a question."
+    },
+    {
+      "intent": "GoodBye",
+      "examples": [
+        {
+          "text": "Goodbye!"
+        },
+        {
+          "text": "Bbye! Have a good day!"
+        },
+        {
+          "text": "Bella Ciao!"
+        },
+        {
+          "text": "Bye!"
+        },
+        {
+          "text": "Cya"
+        },
+        {
+          "text": "See you!"
+        },
+        {
+          "text": "Bye Bye!"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Bot_Control_Confirm_Presence",
+      "examples": [
+        {
+          "text": "You around?"
+        },
+        {
+          "text": "Where'd you go?"
+        },
+        {
+          "text": "Speak to me if you are there."
+        },
+        {
+          "text": "Is anybody home?"
+        },
+        {
+          "text": "Is anybody here?"
+        },
+        {
+          "text": "Are you there?"
+        },
+        {
+          "text": "Are you still here with me?"
+        },
+        {
+          "text": "Are you still around?"
+        },
+        {
+          "text": "Are you on?"
+        },
+        {
+          "text": "Are you leaving me?"
+        },
+        {
+          "text": "Anyone there?"
+        },
+        {
+          "text": "Am I talking to someone?"
+        },
+        {
+          "text": "I am still holding"
+        },
+        {
+          "text": "Have I lost you?"
+        },
+        {
+          "text": "Did you hear what I said?"
+        },
+        {
+          "text": "Did you go somewhere?"
+        }
+      ],
+      "description": "Ask the bot to indicate that it is available."
+    }
+  ],
+  "entities": [
+    {
+      "entity": "sys-percentage",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "breed",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "pug",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "husky",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "corgi",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "pomoranian",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "bull dog",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "american shephard",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "german shephard",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "lebrador",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "poodle",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "beagle",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "great dane",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "chow chow",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "greyhound",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Dog breeds",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Information about dogs",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "All dog breeds",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Breeds name",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Give breed names",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "golden retriever",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "help",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "how",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "help",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "train",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "suggest",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "assist",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "need",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "aid",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "assistance",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "helping hand",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "support",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "service",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "advice",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "What",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "tell",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "training",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "manners",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "sit",
+          "synonyms": [
+            "sit down"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "stand",
+          "synonyms": [
+            "standup"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "eat",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "stop",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "no bites",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "greet",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "go",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "habbits",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "health",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-time",
+      "values": [],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "webhooks": [
+    {
+      "url": "https://eu-gb.functions.cloud.ibm.com/api/v1/web/si05202000357%40smartinternz.com_dev/default/train_dog.json",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Sorry, I can't help at the moment, Try after some time!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_6_1591345796488",
+      "conditions": "anything_else",
+      "dialog_node": "response_10_1591346137557",
+      "previous_sibling": "response_10_1591346135291"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "\"<?$webhook_result_1.passages[0].passage_text?>\""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1591345796488",
+      "conditions": "$webhook_result_1",
+      "dialog_node": "response_10_1591346135291"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't get your meaning."
+              },
+              {
+                "text": "Sorry, I can't help at the moment, Try after some time!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_2_1591306873881",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Ask_questions",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "input": "<?input_text?>"
+          },
+          "result_variable": "webhook_result_1"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#train || @help || @training",
+      "dialog_node": "node_6_1591345796488",
+      "previous_sibling": "node_9_1591308020673"
+    },
+    {
+      "type": "standard",
+      "title": "ThankYou",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Your most welcome"
+              },
+              {
+                "text": "Cheers to Doggos"
+              },
+              {
+                "text": "Happy to help you :)"
+              },
+              {
+                "text": "Welcome!"
+              },
+              {
+                "text": "Happy to assist you :)"
+              },
+              {
+                "text": "No problem :)"
+              },
+              {
+                "text": "Your welcome!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#Thank_You",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1591306410073",
+      "previous_sibling": "node_6_1591345796488"
+    },
+    {
+      "type": "standard",
+      "title": "Breed",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "To know about all the breeds <a href=\"https://dogtime.com/dog-breeds/profiles\"> CLICK HERE </a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "@breed",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_9_1591308020673",
+      "previous_sibling": "node_3_1591305980269"
+    },
+    {
+      "type": "standard",
+      "title": "greetings",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello Dog Parent! I am here to help you with your dog."
+              },
+              {
+                "text": "Hey there! How can I help you with your dog?"
+              },
+              {
+                "text": "Hola! "
+              },
+              {
+                "text": "Hi! How can I assist you with your Dog?"
+              },
+              {
+                "text": "Heyy! What you want to know about Dog training?"
+              },
+              {
+                "text": "Hey! I am here to answer your queries related to Dog."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#greetings || #General_About_You || #General_Agent_Capabilities || #General_Greetings",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1591305980269",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Bye",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "GoodBye! Have a graet day!"
+              },
+              {
+                "text": "Bye Bye!"
+              },
+              {
+                "text": "Bye! Enjoy doggy training."
+              },
+              {
+                "text": "Bella Ciao! Sionara! "
+              },
+              {
+                "text": "See you soon! Take Care!"
+              },
+              {
+                "text": "Bbye! Take care!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Ending || #GoodBye",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1591306873881",
+      "previous_sibling": "node_1_1591306410073"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hey! Welcome to Dog Training Bot!"
+              },
+              {
+                "text": "Hey there! Welcome to Dog Trainer Bot!"
+              },
+              {
+                "text": "Hola! Welcome to All About Dogs."
+              },
+              {
+                "text": "Hey Dog Parent! Your Dog is Cute."
+              },
+              {
+                "text": "Welcome! I am a Dog Trainer."
+              },
+              {
+                "text": "Hey welcome my friend! Lets train your Dog."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "My first skill",
+  "language": "en",
+  "description": ""
+}
